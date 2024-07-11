@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    color: black; 
+}
+
+
+
+nav, nav ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 100px;
+    list-style: none;
+}
+.btn-1{
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+
+
+}
+
+nav >h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sec1{
+  background-image: url('../assets/Hero-bg.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0px;
+  margin: auto;
+}
+.h4-1{
+  font-size: 34px;
+  font-weight: 800;
+  padding: 10px 20px;
+  max-width: 998px;
+  text-align: center;
+  margin-top: 20px;
+}
+.p-1{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+.btn-2 button{
+  padding: 12px 24px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 34px;
+}
+.sec-2{
+  max-width: 1140px;
+  padding: 80px 97px;
+  margin-top: 106px;
+  margin: auto;
+  background-color: #0d132105;
+}
+.sec-title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 24px;
+}
+.sec-title h3{
+  font-size: 34px;
+  font-weight: 800;;
+}
+.sec-title p{
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  padding: 0px 47px;
+}
+.card-container{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.card{
+  display: flex;
+  padding: 48px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 100px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.reverse{
+  flex-direction: row;
+  background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  justify-content: flex-start;
+  gap: 32px;
+}
+.reverse .card-info{
+  padding-right: 101px;
+
+}
+.card-info{
+  display: flex;
+  flex-direction: column;;
+}
+.card-info h4{
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+
+}
+.card-info p{
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.card-btn{
+  margin-top: 32px;
+}
+.card-btn button{
+  padding: 12px 20px;
+  border: 1px solid black;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
