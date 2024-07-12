@@ -61,6 +61,7 @@ nav >h3{
   border: none;
   color: white;
   margin-top: 34px;
+  cursor: pointer;
 }
 .sec-2{
   max-width: 1140px;
@@ -259,25 +260,48 @@ nav >h3{
   padding: 0px 144px;
 }
 .sec-5 button{
-  padding: 12px 24px;
+  padding: 10px 20px;
   background-color: white;
   border-radius: 5px;
   border: none;
   color: black;
   margin-top: 34px;
+  font-weight: bold;
+  font-size:  ;
 }
 .input{
   padding: 12px 24px;
   border-radius: 5px;
   border: none;
   margin-top: 34px;
-  width: 100%;
   font-size: 18px;
   font-weight: 400;
+  width: 600px;
 }
 .inputer{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+
+}
+.sec-6{
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 79px;
+  background-color: rgba(0, 0, 0, 0.082);
+  padding: 80px 97px;
+  max-height: 5px;
+}
+.sec-6 p{
+  font-size: 16px;
+  font-weight: bold;
+}
+.sec-6 ul li{
+  list-style: none;
+  display: inline;
 }
